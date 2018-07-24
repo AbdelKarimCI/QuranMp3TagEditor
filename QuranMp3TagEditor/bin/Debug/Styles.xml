@@ -1,0 +1,598 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfStyle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Style>
+    <Name>الفاتحة</Name>
+    <Values>
+      <string>الفاتحة</string>
+      <string>البقرة</string>
+      <string>آل عمران</string>
+      <string>النساء</string>
+      <string>المائدة</string>
+      <string>الأنعام</string>
+      <string>الأعراف</string>
+      <string>الأنفال</string>
+      <string>التوبة</string>
+      <string>يونس</string>
+      <string>هود</string>
+      <string>يوسف</string>
+      <string>الرعد</string>
+      <string>إبراهيم</string>
+      <string>الحجر</string>
+      <string>النحل</string>
+      <string>الإسراء</string>
+      <string>الكهف</string>
+      <string>مريم</string>
+      <string>طه</string>
+      <string>الأنبياء</string>
+      <string>الحج</string>
+      <string>المؤمنون</string>
+      <string>النّور</string>
+      <string>الفرقان</string>
+      <string>الشعراء</string>
+      <string>النّمل</string>
+      <string>القصص</string>
+      <string>العنكبوت</string>
+      <string>الرّوم</string>
+      <string>لقمان</string>
+      <string>السجدة</string>
+      <string>الأحزاب</string>
+      <string>سبأ</string>
+      <string>فاطر</string>
+      <string>يس</string>
+      <string>الصافات</string>
+      <string>ص</string>
+      <string>الزمر</string>
+      <string>غافر</string>
+      <string>فصّلت</string>
+      <string>الشورى</string>
+      <string>الزخرف</string>
+      <string>الدّخان</string>
+      <string>الجاثية</string>
+      <string>الأحقاف</string>
+      <string>محمد</string>
+      <string>الفتح</string>
+      <string>الحجرات</string>
+      <string>ق</string>
+      <string>الذاريات</string>
+      <string>الطور</string>
+      <string>النجم</string>
+      <string>القمر</string>
+      <string>الرحمن</string>
+      <string>الواقعة</string>
+      <string>الحديد</string>
+      <string>المجادلة</string>
+      <string>الحشر</string>
+      <string>الممتحنة</string>
+      <string>الصف</string>
+      <string>الجمعة</string>
+      <string>المنافقون</string>
+      <string>التغابن</string>
+      <string>الطلاق</string>
+      <string>التحريم</string>
+      <string>الملك</string>
+      <string>القلم</string>
+      <string>الحاقة</string>
+      <string>المعارج</string>
+      <string>نوح</string>
+      <string>الجن</string>
+      <string>المزّمّل</string>
+      <string>المدّثر</string>
+      <string>القيامة</string>
+      <string>الإنسان</string>
+      <string>المرسلات</string>
+      <string>النبأ</string>
+      <string>النازعات</string>
+      <string>عبس</string>
+      <string>التكوير</string>
+      <string>الإنفطار</string>
+      <string>المطفّفين</string>
+      <string>الإنشقاق</string>
+      <string>البروج</string>
+      <string>الطارق</string>
+      <string>الأعلى</string>
+      <string>الغاشية</string>
+      <string>الفجر</string>
+      <string>البلد</string>
+      <string>الشمس</string>
+      <string>الليل</string>
+      <string>الضحى</string>
+      <string>الشرح</string>
+      <string>التين</string>
+      <string>العلق</string>
+      <string>القدر</string>
+      <string>البينة</string>
+      <string>الزلزلة</string>
+      <string>العاديات</string>
+      <string>القارعة</string>
+      <string>التكاثر</string>
+      <string>العصر</string>
+      <string>الهمزة</string>
+      <string>الفيل</string>
+      <string>قريش</string>
+      <string>الماعون</string>
+      <string>الكوثر</string>
+      <string>الكافرون</string>
+      <string>النصر</string>
+      <string>المسد</string>
+      <string>الإخلاص</string>
+      <string>الفلق</string>
+      <string>النّاس</string>
+    </Values>
+  </Style>
+  <Style>
+    <Name>سورة الفاتحة</Name>
+    <Values>
+      <string>سورة الفاتحة</string>
+      <string>سورة البقرة</string>
+      <string>سورة آل عمران</string>
+      <string>سورة النساء</string>
+      <string>سورة المائدة</string>
+      <string>سورة الأنعام</string>
+      <string>سورة الأعراف</string>
+      <string>سورة الأنفال</string>
+      <string>سورة التوبة</string>
+      <string>سورة يونس</string>
+      <string>سورة هود</string>
+      <string>سورة يوسف</string>
+      <string>سورة الرعد</string>
+      <string>سورة إبراهيم</string>
+      <string>سورة الحجر</string>
+      <string>سورة النحل</string>
+      <string>سورة الإسراء</string>
+      <string>سورة الكهف</string>
+      <string>سورة مريم</string>
+      <string>سورة طه</string>
+      <string>سورة الأنبياء</string>
+      <string>سورة الحج</string>
+      <string>سورة المؤمنون</string>
+      <string>سورة النّور</string>
+      <string>سورة الفرقان</string>
+      <string>سورة الشعراء</string>
+      <string>سورة النّمل</string>
+      <string>سورة القصص</string>
+      <string>سورة العنكبوت</string>
+      <string>سورة الرّوم</string>
+      <string>سورة لقمان</string>
+      <string>سورة السجدة</string>
+      <string>سورة الأحزاب</string>
+      <string>سورة سبأ</string>
+      <string>سورة فاطر</string>
+      <string>سورة يس</string>
+      <string>سورة الصافات</string>
+      <string>سورة ص</string>
+      <string>سورة الزمر</string>
+      <string>سورة غافر</string>
+      <string>سورة فصّلت</string>
+      <string>سورة الشورى</string>
+      <string>سورة الزخرف</string>
+      <string>سورة الدّخان</string>
+      <string>سورة الجاثية</string>
+      <string>سورة الأحقاف</string>
+      <string>سورة محمد</string>
+      <string>سورة الفتح</string>
+      <string>سورة الحجرات</string>
+      <string>سورة ق</string>
+      <string>سورة الذاريات</string>
+      <string>سورة الطور</string>
+      <string>سورة النجم</string>
+      <string>سورة القمر</string>
+      <string>سورة الرحمن</string>
+      <string>سورة الواقعة</string>
+      <string>سورة الحديد</string>
+      <string>سورة المجادلة</string>
+      <string>سورة الحشر</string>
+      <string>سورة الممتحنة</string>
+      <string>سورة الصف</string>
+      <string>سورة الجمعة</string>
+      <string>سورة المنافقون</string>
+      <string>سورة التغابن</string>
+      <string>سورة الطلاق</string>
+      <string>سورة التحريم</string>
+      <string>سورة الملك</string>
+      <string>سورة القلم</string>
+      <string>سورة الحاقة</string>
+      <string>سورة المعارج</string>
+      <string>سورة نوح</string>
+      <string>سورة الجن</string>
+      <string>سورة المزّمّل</string>
+      <string>سورة المدّثر</string>
+      <string>سورة القيامة</string>
+      <string>سورة الإنسان</string>
+      <string>سورة المرسلات</string>
+      <string>سورة النبأ</string>
+      <string>سورة النازعات</string>
+      <string>سورة عبس</string>
+      <string>سورة التكوير</string>
+      <string>سورة الإنفطار</string>
+      <string>سورة المطفّفين</string>
+      <string>سورة الإنشقاق</string>
+      <string>سورة البروج</string>
+      <string>سورة الطارق</string>
+      <string>سورة الأعلى</string>
+      <string>سورة الغاشية</string>
+      <string>سورة الفجر</string>
+      <string>سورة البلد</string>
+      <string>سورة الشمس</string>
+      <string>سورة الليل</string>
+      <string>سورة الضحى</string>
+      <string>سورة الشرح</string>
+      <string>سورة التين</string>
+      <string>سورة العلق</string>
+      <string>سورة القدر</string>
+      <string>سورة البينة</string>
+      <string>سورة الزلزلة</string>
+      <string>سورة العاديات</string>
+      <string>سورة القارعة</string>
+      <string>سورة التكاثر</string>
+      <string>سورة العصر</string>
+      <string>سورة الهمزة</string>
+      <string>سورة الفيل</string>
+      <string>سورة قريش</string>
+      <string>سورة الماعون</string>
+      <string>سورة الكوثر</string>
+      <string>سورة الكافرون</string>
+      <string>سورة النصر</string>
+      <string>سورة المسد</string>
+      <string>سورة الإخلاص</string>
+      <string>سورة الفلق</string>
+      <string>سورة النّاس</string>
+    </Values>
+  </Style>
+  <Style>
+    <Name>Al-Fatihah</Name>
+    <Values>
+      <string>Al-Fatihah</string>
+      <string>Al-Baqarah</string>
+      <string>Aali Imran</string>
+      <string>An-Nisa’</string>
+      <string>Al-Ma’idah</string>
+      <string>Al-An’am</string>
+      <string>Al-A’raf</string>
+      <string>Al-Anfal</string>
+      <string>At-Taubah</string>
+      <string>Yunus</string>
+      <string>Hud</string>
+      <string>Yusuf</string>
+      <string>Ar-Ra’d</string>
+      <string>Ibrahim</string>
+      <string>Al-Hijr</string>
+      <string>An-Nahl</string>
+      <string>Al-Isra’</string>
+      <string>Al-Kahf</string>
+      <string>Maryam</string>
+      <string>Ta-Ha</string>
+      <string>Al-Anbiya’</string>
+      <string>Al-Haj</string>
+      <string>Al-Mu’minun</string>
+      <string>An-Nur</string>
+      <string>Al-Furqan</string>
+      <string>Ash-Shu’ara’</string>
+      <string>An-Naml</string>
+      <string>Al-Qasas</string>
+      <string>Al-Ankabut</string>
+      <string>Ar-Rum</string>
+      <string>Luqman</string>
+      <string>As-Sajdah</string>
+      <string>Al-Ahzab</string>
+      <string>Saba’</string>
+      <string>Al-Fatir</string>
+      <string>Ya-Sin</string>
+      <string>As-Saffah</string>
+      <string>Sad</string>
+      <string>Az-Zumar</string>
+      <string>Ghafar</string>
+      <string>Fusilat</string>
+      <string>Ash-Shura</string>
+      <string>Az-Zukhruf</string>
+      <string>Ad-Dukhan</string>
+      <string>Al-Jathiyah</string>
+      <string>Al-Ahqaf</string>
+      <string>Muhammad</string>
+      <string>Al-Fat’h</string>
+      <string>Al-Hujurat</string>
+      <string>Qaf</string>
+      <string>Adz-Dzariyah</string>
+      <string>At-Tur</string>
+      <string>An-Najm</string>
+      <string>Al-Qamar</string>
+      <string>Ar-Rahman</string>
+      <string>Al-Waqi’ah</string>
+      <string>Al-Hadid</string>
+      <string>Al-Mujadilah</string>
+      <string>Al-Hashr</string>
+      <string>Al-Mumtahanah</string>
+      <string>As-Saf</string>
+      <string>Al-Jum’ah</string>
+      <string>Al-Munafiqun</string>
+      <string>At-Taghabun</string>
+      <string>At-Talaq</string>
+      <string>At-Tahrim</string>
+      <string>Al-Mulk</string>
+      <string>Al-Qalam</string>
+      <string>Al-Haqqah</string>
+      <string>Al-Ma’arij</string>
+      <string>Nuh</string>
+      <string>Al-Jinn</string>
+      <string>Al-Muzammil</string>
+      <string>Al-Mudaththir</string>
+      <string>Al-Qiyamah</string>
+      <string>Al-Insan</string>
+      <string>Al-Mursalat</string>
+      <string>An-Naba’</string>
+      <string>An-Nazi’at</string>
+      <string>‘Abasa</string>
+      <string>At-Takwir</string>
+      <string>Al-Infitar</string>
+      <string>Al-Mutaffifin</string>
+      <string>Al-Inshiqaq</string>
+      <string>Al-Buruj</string>
+      <string>At-Tariq</string>
+      <string>Al-A’la</string>
+      <string>Al-Ghashiyah</string>
+      <string>Al-Fajr</string>
+      <string>Al-Balad</string>
+      <string>Ash-Shams</string>
+      <string>Al-Layl</string>
+      <string>Adh-Dhuha</string>
+      <string>Al-Inshirah</string>
+      <string>At-Tin</string>
+      <string>Al-‘Alaq</string>
+      <string>Al-Qadar</string>
+      <string>Al-Bayinah</string>
+      <string>Az-Zalzalah</string>
+      <string>Al-‘Adiyah</string>
+      <string>Al-Qari’ah</string>
+      <string>At-Takathur</string>
+      <string>Al-‘Asr</string>
+      <string>Al-Humazah</string>
+      <string>Al-Fil</string>
+      <string>Quraish</string>
+      <string>Al-Ma’un</string>
+      <string>Al-Kauthar</string>
+      <string>Al-Kafirun</string>
+      <string>An-Nasr</string>
+      <string>Al-Masad</string>
+      <string>Al-Ikhlas</string>
+      <string>Al-Falaq</string>
+      <string>An-Nas</string>
+    </Values>
+  </Style>
+  <Style>
+    <Name>Surat Al-Fatihah</Name>
+    <Values>
+      <string>Surat Al-Fatihah</string>
+      <string>Surat Al-Baqarah</string>
+      <string>Surat Aali Imran</string>
+      <string>Surat An-Nisa’</string>
+      <string>Surat Al-Ma’idah</string>
+      <string>Surat Al-An’am</string>
+      <string>Surat Al-A’raf</string>
+      <string>Surat Al-Anfal</string>
+      <string>Surat At-Taubah</string>
+      <string>Surat Yunus</string>
+      <string>Surat Hud</string>
+      <string>Surat Yusuf</string>
+      <string>Surat Ar-Ra’d</string>
+      <string>Surat Ibrahim</string>
+      <string>Surat Al-Hijr</string>
+      <string>Surat An-Nahl</string>
+      <string>Surat Al-Isra’</string>
+      <string>Surat Al-Kahf</string>
+      <string>Surat Maryam</string>
+      <string>Surat Ta-Ha</string>
+      <string>Surat Al-Anbiya’</string>
+      <string>Surat Al-Haj</string>
+      <string>Surat Al-Mu’minun</string>
+      <string>Surat An-Nur</string>
+      <string>Surat Al-Furqan</string>
+      <string>Surat Ash-Shu’ara’</string>
+      <string>Surat An-Naml</string>
+      <string>Surat Al-Qasas</string>
+      <string>Surat Al-Ankabut</string>
+      <string>Surat Ar-Rum</string>
+      <string>Surat Luqman</string>
+      <string>Surat As-Sajdah</string>
+      <string>Surat Al-Ahzab</string>
+      <string>Surat Saba’</string>
+      <string>Surat Al-Fatir</string>
+      <string>Surat Ya-Sin</string>
+      <string>Surat As-Saffah</string>
+      <string>Surat Sad</string>
+      <string>Surat Az-Zumar</string>
+      <string>Surat Ghafar</string>
+      <string>Surat Fusilat</string>
+      <string>Surat Ash-Shura</string>
+      <string>Surat Az-Zukhruf</string>
+      <string>Surat Ad-Dukhan</string>
+      <string>Surat Al-Jathiyah</string>
+      <string>Surat Al-Ahqaf</string>
+      <string>Surat Muhammad</string>
+      <string>Surat Al-Fat’h</string>
+      <string>Surat Al-Hujurat</string>
+      <string>Surat Qaf</string>
+      <string>Surat Adz-Dzariyah</string>
+      <string>Surat At-Tur</string>
+      <string>Surat An-Najm</string>
+      <string>Surat Al-Qamar</string>
+      <string>Surat Ar-Rahman</string>
+      <string>Surat Al-Waqi’ah</string>
+      <string>Surat Al-Hadid</string>
+      <string>Surat Al-Mujadilah</string>
+      <string>Surat Al-Hashr</string>
+      <string>Surat Al-Mumtahanah</string>
+      <string>Surat As-Saf</string>
+      <string>Surat Al-Jum’ah</string>
+      <string>Surat Al-Munafiqun</string>
+      <string>Surat At-Taghabun</string>
+      <string>Surat At-Talaq</string>
+      <string>Surat At-Tahrim</string>
+      <string>Surat Al-Mulk</string>
+      <string>Surat Al-Qalam</string>
+      <string>Surat Al-Haqqah</string>
+      <string>Surat Al-Ma’arij</string>
+      <string>Surat Nuh</string>
+      <string>Surat Al-Jinn</string>
+      <string>Surat Al-Muzammil</string>
+      <string>Surat Al-Mudaththir</string>
+      <string>Surat Al-Qiyamah</string>
+      <string>Surat Al-Insan</string>
+      <string>Surat Al-Mursalat</string>
+      <string>Surat An-Naba’</string>
+      <string>Surat An-Nazi’at</string>
+      <string>Surat ‘Abasa</string>
+      <string>Surat At-Takwir</string>
+      <string>Surat Al-Infitar</string>
+      <string>Surat Al-Mutaffifin</string>
+      <string>Surat Al-Inshiqaq</string>
+      <string>Surat Al-Buruj</string>
+      <string>Surat At-Tariq</string>
+      <string>Surat Al-A’la</string>
+      <string>Surat Al-Ghashiyah</string>
+      <string>Surat Al-Fajr</string>
+      <string>Surat Al-Balad</string>
+      <string>Surat Ash-Shams</string>
+      <string>Surat Al-Layl</string>
+      <string>Surat Adh-Dhuha</string>
+      <string>Surat Al-Inshirah</string>
+      <string>Surat At-Tin</string>
+      <string>Surat Al-‘Alaq</string>
+      <string>Surat Al-Qadar</string>
+      <string>Surat Al-Bayinah</string>
+      <string>Surat Az-Zalzalah</string>
+      <string>Surat Al-‘Adiyah</string>
+      <string>Surat Al-Qari’ah</string>
+      <string>Surat At-Takathur</string>
+      <string>Surat Al-‘Asr</string>
+      <string>Surat Al-Humazah</string>
+      <string>Surat Al-Fil</string>
+      <string>Surat Quraish</string>
+      <string>Surat Al-Ma’un</string>
+      <string>Surat Al-Kauthar</string>
+      <string>Surat Al-Kafirun</string>
+      <string>Surat An-Nasr</string>
+      <string>Surat Al-Masad</string>
+      <string>Surat Al-Ikhlas</string>
+      <string>Surat Al-Falaq</string>
+      <string>Surat An-Nas</string>
+    </Values>
+  </Style>
+  <Style>
+    <Name>Sourat Al-Fatihah</Name>
+    <Values>
+      <string>Sourat Al-Fatihah</string>
+      <string>Sourat Al-Baqarah</string>
+      <string>Sourat Aali Imran</string>
+      <string>Sourat An-Nisa’</string>
+      <string>Sourat Al-Ma’idah</string>
+      <string>Sourat Al-An’am</string>
+      <string>Sourat Al-A’raf</string>
+      <string>Sourat Al-Anfal</string>
+      <string>Sourat At-Taubah</string>
+      <string>Sourat Yunus</string>
+      <string>Sourat Hud</string>
+      <string>Sourat Yusuf</string>
+      <string>Sourat Ar-Ra’d</string>
+      <string>Sourat Ibrahim</string>
+      <string>Sourat Al-Hijr</string>
+      <string>Sourat An-Nahl</string>
+      <string>Sourat Al-Isra’</string>
+      <string>Sourat Al-Kahf</string>
+      <string>Sourat Maryam</string>
+      <string>Sourat Ta-Ha</string>
+      <string>Sourat Al-Anbiya’</string>
+      <string>Sourat Al-Haj</string>
+      <string>Sourat Al-Mu’minun</string>
+      <string>Sourat An-Nur</string>
+      <string>Sourat Al-Furqan</string>
+      <string>Sourat Ash-Shu’ara’</string>
+      <string>Sourat An-Naml</string>
+      <string>Sourat Al-Qasas</string>
+      <string>Sourat Al-Ankabut</string>
+      <string>Sourat Ar-Rum</string>
+      <string>Sourat Luqman</string>
+      <string>Sourat As-Sajdah</string>
+      <string>Sourat Al-Ahzab</string>
+      <string>Sourat Saba’</string>
+      <string>Sourat Al-Fatir</string>
+      <string>Sourat Ya-Sin</string>
+      <string>Sourat As-Saffah</string>
+      <string>Sourat Sad</string>
+      <string>Sourat Az-Zumar</string>
+      <string>Sourat Ghafar</string>
+      <string>Sourat Fusilat</string>
+      <string>Sourat Ash-Shura</string>
+      <string>Sourat Az-Zukhruf</string>
+      <string>Sourat Ad-Dukhan</string>
+      <string>Sourat Al-Jathiyah</string>
+      <string>Sourat Al-Ahqaf</string>
+      <string>Sourat Muhammad</string>
+      <string>Sourat Al-Fat’h</string>
+      <string>Sourat Al-Hujurat</string>
+      <string>Sourat Qaf</string>
+      <string>Sourat Adz-Dzariyah</string>
+      <string>Sourat At-Tur</string>
+      <string>Sourat An-Najm</string>
+      <string>Sourat Al-Qamar</string>
+      <string>Sourat Ar-Rahman</string>
+      <string>Sourat Al-Waqi’ah</string>
+      <string>Sourat Al-Hadid</string>
+      <string>Sourat Al-Mujadilah</string>
+      <string>Sourat Al-Hashr</string>
+      <string>Sourat Al-Mumtahanah</string>
+      <string>Sourat As-Saf</string>
+      <string>Sourat Al-Jum’ah</string>
+      <string>Sourat Al-Munafiqun</string>
+      <string>Sourat At-Taghabun</string>
+      <string>Sourat At-Talaq</string>
+      <string>Sourat At-Tahrim</string>
+      <string>Sourat Al-Mulk</string>
+      <string>Sourat Al-Qalam</string>
+      <string>Sourat Al-Haqqah</string>
+      <string>Sourat Al-Ma’arij</string>
+      <string>Sourat Nuh</string>
+      <string>Sourat Al-Jinn</string>
+      <string>Sourat Al-Muzammil</string>
+      <string>Sourat Al-Mudaththir</string>
+      <string>Sourat Al-Qiyamah</string>
+      <string>Sourat Al-Insan</string>
+      <string>Sourat Al-Mursalat</string>
+      <string>Sourat An-Naba’</string>
+      <string>Sourat An-Nazi’at</string>
+      <string>Sourat ‘Abasa</string>
+      <string>Sourat At-Takwir</string>
+      <string>Sourat Al-Infitar</string>
+      <string>Sourat Al-Mutaffifin</string>
+      <string>Sourat Al-Inshiqaq</string>
+      <string>Sourat Al-Buruj</string>
+      <string>Sourat At-Tariq</string>
+      <string>Sourat Al-A’la</string>
+      <string>Sourat Al-Ghashiyah</string>
+      <string>Sourat Al-Fajr</string>
+      <string>Sourat Al-Balad</string>
+      <string>Sourat Ash-Shams</string>
+      <string>Sourat Al-Layl</string>
+      <string>Sourat Adh-Dhuha</string>
+      <string>Sourat Al-Inshirah</string>
+      <string>Sourat At-Tin</string>
+      <string>Sourat Al-‘Alaq</string>
+      <string>Sourat Al-Qadar</string>
+      <string>Sourat Al-Bayinah</string>
+      <string>Sourat Az-Zalzalah</string>
+      <string>Sourat Al-‘Adiyah</string>
+      <string>Sourat Al-Qari’ah</string>
+      <string>Sourat At-Takathur</string>
+      <string>Sourat Al-‘Asr</string>
+      <string>Sourat Al-Humazah</string>
+      <string>Sourat Al-Fil</string>
+      <string>Sourat Quraish</string>
+      <string>Sourat Al-Ma’un</string>
+      <string>Sourat Al-Kauthar</string>
+      <string>Sourat Al-Kafirun</string>
+      <string>Sourat An-Nasr</string>
+      <string>Sourat Al-Masad</string>
+      <string>Sourat Al-Ikhlas</string>
+      <string>Sourat Al-Falaq</string>
+      <string>Sourat An-Nas</string>
+    </Values>
+  </Style>
+</ArrayOfStyle>

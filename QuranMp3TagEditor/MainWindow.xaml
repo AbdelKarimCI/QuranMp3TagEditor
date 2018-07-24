@@ -1,0 +1,83 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:QuranMp3TagEditor"
+        xmlns:viewModels="clr-namespace:QuranMp3TagEditor.ViewModels" x:Class="QuranMp3TagEditor.MainWindow"
+        mc:Ignorable="d"
+        Title="محرر علامات القرآن الكريم MP3" Height="450" Width="800" FlowDirection="RightToLeft">
+    <Window.Resources>
+        <local:BoolInverterConverter x:Key="BoolInverterConverter" />
+    </Window.Resources>
+    <Window.DataContext>
+        <viewModels:MainViewModel/>
+    </Window.DataContext>
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto" />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+
+        <Label Content="المسار" />
+        <Border Grid.Row="0" Grid.Column="1" Grid.ColumnSpan="3" BorderThickness="1" BorderBrush="Black">
+            <TextBlock Text="{Binding Main.Path}"></TextBlock>
+        </Border>
+        <Button Grid.Row="0" Grid.Column="4" Content="تصفح" Click="Button_Click" />
+
+        <Label Grid.Row="1" Grid.Column="0" Content="الملفات" />
+        <DataGrid Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="4" ItemsSource="{Binding Main.Files}" AutoGenerateColumns="False" IsReadOnly="True" >
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="اسم الملف" Binding="{Binding Name}" />
+                <DataGridTextColumn Header="العنوان" Binding="{Binding File.Tag.Title}" />
+                <DataGridTextColumn Header="اسم القارئ" Binding="{Binding File.Tag.FirstAlbumArtist}" />
+                <DataGridTextColumn Header="اسم الألبوم" Binding="{Binding File.Tag.Album}" />
+                <DataGridTextColumn Header="السنة" Binding="{Binding File.Tag.Year}" />
+            </DataGrid.Columns>
+        </DataGrid>
+
+        <Label Grid.Row="2" Grid.Column="1" Content="تعرف على السورة حسب" />
+        <RadioButton Grid.Row="2" Grid.Column="2" GroupName="Group1" IsChecked="{Binding Main.RecorgnizeByFileName}" Content="اسم الملف" />
+        <RadioButton Grid.Row="2" Grid.Column="3" GroupName="Group1"  Content="العنوان" IsChecked="{Binding Main.RecorgnizeByFileName, Converter={StaticResource BoolInverterConverter}}" />
+
+        <CheckBox Grid.Row="3" Grid.Column="0" IsChecked="{Binding Main.FileNameChange}" />
+        <Label Grid.Row="3" Grid.Column="1" Content="اسم الملف" />
+        <CheckBox Grid.Row="3" Grid.Column="2" Content="رقم السورة" IsChecked="{Binding Main.FileNameSuratNumber}" />
+        <CheckBox Grid.Row="3" Grid.Column="3" Content="اسم السورة" IsChecked="{Binding Main.FileNameSuratName}" />
+        <ComboBox Grid.Row="3" Grid.Column="4" ItemsSource="{Binding Main.Styles}" DisplayMemberPath="Name" SelectedValuePath="Name" SelectedItem="{Binding Main.FileNameStyle}" />
+        
+        <CheckBox Grid.Row="4" Grid.Column="0" IsChecked="{Binding Main.TitleChange}" />
+        <Label Grid.Row="4" Grid.Column="1" Content="العنوان" />
+        <CheckBox Grid.Row="4" Grid.Column="2" Content="رقم السورة" IsChecked="{Binding Main.TitleSuratNumber}" />
+        <CheckBox Grid.Row="4" Grid.Column="3" Content="اسم السورة" IsChecked="{Binding Main.TitleSuratName}" />
+        <ComboBox Grid.Row="4" Grid.Column="4" ItemsSource="{Binding Main.Styles}" DisplayMemberPath="Name" SelectedValuePath="Name" SelectedItem="{Binding Main.TitleStyle}" />
+
+        <CheckBox Grid.Row="5" Grid.Column="0" IsChecked="{Binding Main.ArtistChange}" />
+        <Label Grid.Row="5" Grid.Column="1" Content="اسم القارئ" />
+        <TextBox Grid.Row="5" Grid.Column="2" Grid.ColumnSpan="3" Text="{Binding Main.Artist}" />
+
+        <CheckBox Grid.Row="6" Grid.Column="0" IsChecked="{Binding Main.AlbumChange}" />
+        <Label Grid.Row="6" Grid.Column="1" Content="اسم الألبوم" />
+        <TextBox Grid.Row="6" Grid.Column="2" Grid.ColumnSpan="3" Text="{Binding Main.Album}" />
+
+        <CheckBox Grid.Row="7" Grid.Column="0" IsChecked="{Binding Main.YearChange}" />
+        <Label Grid.Row="7" Grid.Column="1" Content="السنة" />
+        <TextBox Grid.Row="7" Grid.Column="2" Grid.ColumnSpan="3" Text="{Binding Main.Year}" />
+        
+        <Button Grid.Row="8" Grid.ColumnSpan="5" Content="تطبيق" Click="Apply_Click"></Button>
+    </Grid>
+</Window>
